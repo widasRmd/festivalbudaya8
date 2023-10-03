@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;800&display=swap" rel="stylesheet" />
+
+    <!-- SplideJS -->
+    <link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide.min.css" />
+
+    <title>Festival Budaya 8</title>
+  </head>
+
+  <body class="bg-image">
+    <!-- Start Header Section -->
+    <div class="container vh-100">
+      <div class="row mb-0 h-md-25 justify-content-between px-md-5 p-4">
+        <div class="col-4">
+          <img src="assets/logo_sma_8.PNG" alt="Logo SMA 8" style="height: 67px" data-aos="fade-right" data-aos-duration="800" />
+        </div>
+        <div class="col-4 text-end">
+          <img src="assets/logo_osis.PNG" alt="Logo Osis" style="height: 67px" data-aos="fade-left" data-aos-duration="800" />
+        </div>
+      </div>
+      <div class="row justify-content-center" style="height: 80%" data-aos="zoom-in-up" data-aos-duration="800">
+        <div class="col-md-5 text-center align-self-center mb-5">
+          <img src="assets/logo_fb8.PNG" class="px-3 px-md-0 mb-4 img-fluid" alt="Logo FB8" style="width: 170px" />
+          <img src="assets/title_fb8.png" class="px-3 mb-5 img-fluid" alt="Title FB8" style="width: 380px" />
+          <h6 class="fs-5 fw-bold">OLEH SMA NEGERI 8 JAKARTA</h6>
+        </div>
+      </div>
+    </div>
+    <!-- End Header Section -->
+
+    <!-- Start Maps Section -->
+    <section class="overflow-hidden" style="background-color: rgba(5, 41, 65, 0.5)">
+      <div class="container mt-5 py-5">
+        <div class="row justify-content-center py-md-5">
+          <div class="col-md-6 text-center">
+            <img class="my-3" src="assets/framelist.png" style="height: 60px; transform: rotate(180deg)" alt="..." />
+            <h1 class="fw-bold">Dunia Festival Budaya 8</h1>
+            <img class="my-3" src="assets/framelist.png" style="height: 60px" alt="..." />
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center">
+            <img src="assets/globe.png" class="img-fluid my-5" data-aos="zoom-in" data-aos-duration="800" alt="Globe" />
+            <button type="button" href="#" data-aos="zoom-in-up" class="btn btn-primary d-none d-lg-inline rounded-pill px-5 py-3 my-5 fw-bold">Kunjungi Dunia</button>
+            <button
+              type="button"
+              class="btn btn-secondary d-lg-none rounded-pill px-5 py-3 my-5 fw-bold"
+              data-container="body"
+              data-toggle="popover"
+              data-placement="top"
+              data-content="Hanya dapat diakses melalui PC/Laptop"
+              data-aos="zoom-in-up"
+            >
+              Kunjungi Dunia
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Maps Section -->
+
+    <!-- Start About Section -->
+    <section class="overflow-hidden" style="background-color: rgba(5, 41, 65, 0.5)">
+      <div class="container py-5">
+        <div class="row justify-content-center py-md-5">
+          <div class="col-md-6 text-center">
+            <img class="my-3" src="assets/framelist.png" style="height: 60px; transform: rotate(180deg)" alt="..." />
+            <h1 class="fw-bold">Mengenal Kami</h1>
+            <img class="my-3" src="assets/framelist.png" style="height: 60px" alt="..." />
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div
+            class="col-10 col-md-8 text-center p-3 p-md-5 mb-5"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            style="background-image: url(assets/bg_paper.png); background-size: cover; background-position: top center"
+          >
+            <p class="text-dark my-5 text-fluid fs-5 lh-lg">
+              Festival Budaya 8 merupakan program kerja tahunan yang diselenggarakan oleh Pengurus OSIS SMA Negeri 8 Jakarta. Pada tahun-tahun sebelumnya, acara ini dilaksanakan di SMA Negeri 8
+              Jakarta secara luring. Namun, pandemi Covid-19 membuat panitia melakukan penyesuaian terhadap konsep acara agar acara tetap berjalan secara maksimal dengan segala keterbatasan yang
+              dihadapi. Pada tahun ini, Festival Budaya 8 dilaksanakan secara daring dan berbentuk virtual world dengan tema “Enchanted Island”. Adapun tagline yang diusung adalah “Pesona Budaya,
+              Satukan Dunia”.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Start Teaser -->
+    <section class="overflow-hidden" style="background-color: rgba(5, 41, 65, 0.5)">
+      <div class="container py-5">
+        <div class="row justify-content-center py-md-5">
+          <div class="col-md-6 text-center">
+            <img class="my-3" src="assets/framelist.png" style="height: 60px; transform: rotate(180deg)" alt="..." />
+            <h1 class="fw-bold">Teaser & Gallery</h1>
+            <img class="my-3" src="assets/framelist.png" style="height: 60px" alt="..." />
+          </div>
+        </div>
+      </div>
+
+      <!-- Start Slider 1  -->
+      <div id="card-slider" class="splide container" data-aos="fade-right">
+        <div class="splide__slider">
+          <!-- relative -->
+          <div class="splide__track pt-2 pb-5 py-md-5">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/-1164489773035130069_IMG_1192.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/-5914036959468907002_IMG_1172.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/-6766753693428713903_IMG_1415.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/-8518793309560948129_IMG_1483.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/-8677876976548526268_IMG_1442.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/1043472483106733020_IMG_1373.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/20180325072420_IMG_1436.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/20180325072435_IMG_1437.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/20180325073112_IMG_1455_1.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/20180325073241_IMG_1460.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/20180325073316_IMG_1462.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/20180325073828_IMG_1472.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/20180325091434_IMG_1493.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/4292477426105474915_IMG_1391.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/_MG_0671.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/_MG_0688.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/_MG_0726.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/_MG_0731.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/_MG_0741.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/_MG_0784.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/DSC01646.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/DSC01784.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_0015.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_0027.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_0029.JPG" alt="Unknow" />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- End SLider 1  -->
+
+      <!-- Start Slider 2  -->
+      <div id="card-slider2" class="splide container" data-aos="fade-left">
+        <div class="splide__slider">
+          <!-- relative -->
+          <div class="splide__track pt-2 pb-5 py-md-5">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_0040.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_0047.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_0061.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_0063.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_0066.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_0076.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_0088.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_0149.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_0158.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_0163.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_0174.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_0200.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_0505.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_0516.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_0540.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_0594.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_0687.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_0700.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_0776.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_2160.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_2205.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_2359.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_2377.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_2414.JPG" alt="Unknow" />
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container p-1 p-md-2">
+                  <img class="img-fluid w-100 img-thumbnail shadow" src="assets/Dokumen FB8/IMG_2417.JPG" alt="Unknow" />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- End SLider 2  -->
+
+      <!-- Video -->
+      <section class="py-3 py-md-5">
+        <div class="container" data-aos="zoom-in-up">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <div class="frame-wrapper">
+                <video width="320" height="240" controls autoplay loop>
+                  <source src="assets/teaser/video-output-F38215FD-8192-4BF1-BE65-0C01A8D47DC9.mov" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Video -->
+    </section>
+    <!-- End Teaser -->
+    <a href=""></a>
+    <!-- Start Featuring -->
+    <section class="bg-white pt-5 overflow-hidden">
+      <div class="container">
+        <div class="row justify-content-center py-3 py-md-5">
+          <div class="col-md-8 text-center">
+            <h3 class="text-dark fw-bold">Berkolaborasi dengan :</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <a href="https://www.instagram.com/koperasi.siswa" class="kolabs col-12 col-md-4 text-center p-0 m-0">
+          <img class="w-100 img-fluid" src="assets/feat1.png" data-aos="fade-right" alt="Feat 1" />
+        </a>
+        <a href="https://www.instagram.com/mediasiswa8" class="kolabs col-12 col-md-4 text-center p-0 m-0">
+          <img class="w-100 img-fluid" src="assets/feat2.png" data-aos="fade-up" alt="Feat 2" />
+        </a>
+        <a href="https://www.instagram.com/jclub8" class="kolabs col-12 col-md-4 text-center p-0 m-0">
+          <img class="w-100 img-fluid" src="assets/feat3.png" data-aos="fade-left" alt="Feat 3" />
+        </a>
+      </div>
+    </section>
+    <!-- End Featuring -->
+
+    <!-- Start Footer -->
+    <section style="background-color: #052941">
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <div class="col-md-4 text-center mb-5 mb-md-0">
+            <div class="row mb-3" data-aos="zoom-in-up">
+              <h6>Sponsors</h6>
+            </div>
+            <div class="row justify-content-center mb-3" data-aos="zoom-in-up">
+              <img src="assets/sponsorship/sponsorship.png" class="w-75" alt="sponsorship" />
+            </div>
+          </div>
+          <div class="col-md-4 text-center mb-5 mb-md-0">
+            <div class="row mb-3" data-aos="zoom-in-up">
+              <h6>Our Official Instagram</h6>
+            </div>
+            <div class="row mb-3" data-aos="zoom-in-up">
+              <a href="https://www.instagram.com/festivalbudaya8/"> <img src="assets/icon_ig.png" alt="Instagram" style="max-width: 80px" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center pt-md-5">
+          <small class="text-center text-white-50">Festival Budaya 8 @copyright 2021</small>
+        </div>
+      </div>
+    </section>
+    <!-- End Footer -->
+
+    <!-- Start Rating -->
+    <!-- <div class="fixed-bottom bg-white" style="width: 134px; height: 134px"></div> -->
+    <!-- End Rating -->
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        new Splide("#card-slider", {
+          type: "loop",
+          perPage: 3,
+          focus: "left",
+        }).mount();
+      });
+      document.addEventListener("DOMContentLoaded", function () {
+        new Splide("#card-slider2", {
+          type: "loop",
+          perPage: 3,
+          focus: "left",
+        }).mount();
+      });
+
+      $(function () {
+        $('[data-toggle="popover"]').popover();
+      });
+    </script>
+
+    <!-- Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
